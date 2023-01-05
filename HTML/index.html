@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador / Challenge 1</title>
+    <script src="/js/Scripts.js"></script>
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <a href="index.html">
+        <img class="logo" src="/img/LogoVector.svg" alt="LogoAlura">
+    </a>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="textuser">
+            <textarea  name="TxtUser" id="TxtUser" placeholder="Ingrese el texto aquí" ></textarea>
+            <p class="indications">Solo Letras  y sin acentos</p>
+            <div id="botones">
+                <input  id="buttonEncrip" type="button" onclick="encryptText()" value="Encriptar">
+                <input  id="buttonDesencrip"  type="button"  onclick="descryptText()" value="Desencriptar">
+            </div>
+            
+        </div>
+        <div  class="result">
+            <textarea id="txtResuslt" class="txtdesencrypt" readonly ></textarea>
+            <img class="muneco" id="Img" src="/Defio1_Encriptador/Encriptador/img/Muñeco.svg" alt="Muneco">
+            <div id="messages" class="mensajes">
+                <p class="alert">Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    
+</body>
+<footer>
+    <p>Author: Greivin Carazo<br>
+    <a href="github/gcarazo">github/gcarazo</a></p>
+</footer>
+</html>

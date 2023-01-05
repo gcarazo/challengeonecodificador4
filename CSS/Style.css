@@ -1,0 +1,139 @@
+.logo{
+    width: 120px;
+    height: 48px;
+    flex: auto;
+    order: 0;   
+    flex-grow: 0;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-bottom: 25px;
+}
+
+body{
+    background: #F3F5FC;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:50px;
+    margin: auto;
+}
+
+/*Texto que ingresa  el usuario*/
+.textuser{ 
+    
+    background: #F3F5FC;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+} 
+
+.textuser textarea{
+    resize: none;
+    border-style: none;
+    background: #F3F5FC;
+    width: 50%;
+    height: 50%;
+    font-family:'Poppins', sans-serif;
+    font-size: 32px;
+    color:#0A3871;
+    
+}
+.result{
+    
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    background: white;
+    align-items: center;
+    width: auto;
+    height: 750px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.result textarea{
+    width: 80%;
+    height: auto;
+    border-style: none;
+    resize: none;
+    color: #495057;
+    font-family:'Poppins', sans-serif;
+    font-size: 20px;
+    
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.alert{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #343A40;
+    text-align: center;
+    align-self: stretch;
+}
+.mensajes p{
+    
+    text-align: center;
+}
+.panel2 img{
+    width: auto;
+    height: auto;
+    left: 1032px;
+    top: 283px;
+}
+
+#botones{
+    width: 100%;
+    border: 1px solid red;
+    gap:10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+#buttonEncrip{
+    background: #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: white;
+    width: 200px;
+    height: 60px;
+}
+#buttonDesencrip{
+    background: #D8DFE8;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    padding: 24px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color:#0A3871;
+    width: 200px;
+    height: 60px;
+}
+
+.textuser p{
+    font-size: 12px;
+}
+
+footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    text-align: center;
+}
