@@ -35,7 +35,7 @@ main{
 
 .message{
     background: white;
-    background-image: url("/Muñeco.svg");
+    background-image:  url("/Muñeco.svg");
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
@@ -43,6 +43,7 @@ main{
     margin-left: 98px;
     margin-top: 28px;
     padding-left: 20px;
+    padding-top: 20px;
     position: fixed;
 }
 .message:focus{outline: none;}
